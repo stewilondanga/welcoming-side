@@ -112,11 +112,11 @@ label[for='toggle-1']:before {
   content: '✘';
 }
 
-/*:checked + label[for='toggle-1']:before {
+:checked+label[for='toggle-1']:before {
   content: "✔";
 }
 
-label[for='toggle-2']:after {
+/*label[for='toggle-2']:after {
   border-left-width: 0;
   --hl: #a0a0a0;
   --inbg: linear-gradient(#898787, #373737 50%, #313131 0, #2d2b2b);
