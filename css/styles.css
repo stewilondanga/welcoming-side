@@ -116,12 +116,13 @@ label[for='toggle-1']:before {
   content: "✔";
 }
 
-/*label[for='toggle-2']:after {
+label[for='toggle-2']:after {
   border-left-width: 0;
   --hl: #a0a0a0;
   --inbg: linear-gradient(#898787, #373737 50%, #313131 0, #2d2b2b);
 }
-label[for='toggle-2'] span {
+
+/*label[for='toggle-2'] span {
   color: hsl(calc(var(--i)*90), 47%, calc(47% + var(--i)*3%));
   text-shadow: 0 0 13px, 0 0 7px;
 }
