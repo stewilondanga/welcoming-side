@@ -97,11 +97,11 @@ span {
   --i: 1;
 }
 
-/*.false {
-  --i: 0 ;
+.false {
+  --i: 0;
 }
 
-label[for='toggle-1']:before {
+/*label[for='toggle-1']:before {
   position: absolute;
   top: 50%;
   right: calc(100% + .75em);
