@@ -83,7 +83,7 @@ h3 {
   --s: 1;
 }
 
-/*span {
+span {
   display: grid;
   place-content: center;
   flex: 1;
@@ -93,7 +93,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.true {
+/*.true {
   --i: 1 ;
 }
 
