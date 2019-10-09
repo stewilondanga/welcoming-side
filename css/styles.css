@@ -93,11 +93,11 @@ span {
   text-transform: uppercase;
 }
 
-/*.true {
-  --i: 1 ;
+.true {
+  --i: 1;
 }
 
-.false {
+/*.false {
   --i: 0 ;
 }
 
