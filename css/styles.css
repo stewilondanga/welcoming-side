@@ -127,12 +127,12 @@ label[for='toggle-2'] span {
   text-shadow: 0 0 13px, 0 0 7px;
 }
 
-/*.containers {
+.containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
