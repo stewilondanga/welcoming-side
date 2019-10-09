@@ -101,7 +101,7 @@ span {
   --i: 0;
 }
 
-/*label[for='toggle-1']:before {
+label[for='toggle-1']:before {
   position: absolute;
   top: 50%;
   right: calc(100% + .75em);
@@ -111,7 +111,8 @@ span {
   text-shadow: 0 0 5px;
   content: '✘';
 }
-:checked + label[for='toggle-1']:before {
+
+/*:checked + label[for='toggle-1']:before {
   content: "✔";
 }
 
