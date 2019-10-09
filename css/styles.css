@@ -49,7 +49,7 @@ h3 {
   left: -100vw;
 }
 
-/*[type='checkbox'] + label {
+[type='checkbox']+label {
   --s: 0;
   display: flex;
   position: relative;
@@ -63,7 +63,8 @@ h3 {
   color: #747474;
   cursor: pointer;
 }
-[type='checkbox'] + label:after {
+
+/*[type='checkbox'] + label:after {
   --hl: #707070;
   position: absolute;
   top: 1px;
