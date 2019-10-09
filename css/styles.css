@@ -79,11 +79,11 @@ h3 {
   content: '';
 }
 
-/*[type='checkbox']:checked + label {
-  --s: 1 ;
+[type='checkbox']:checked+label {
+  --s: 1;
 }
 
-span {
+/*span {
   display: grid;
   place-content: center;
   flex: 1;
