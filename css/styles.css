@@ -64,7 +64,7 @@ h3 {
   cursor: pointer;
 }
 
-/*[type='checkbox'] + label:after {
+[type='checkbox']+label:after {
   --hl: #707070;
   position: absolute;
   top: 1px;
@@ -78,7 +78,8 @@ h3 {
   transition: 0.35s ease-in-out;
   content: '';
 }
-[type='checkbox']:checked + label {
+
+/*[type='checkbox']:checked + label {
   --s: 1 ;
 }
 
